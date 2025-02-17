@@ -1,8 +1,8 @@
 * {
     margin: 0px;
     font-family: Poppins;
+    
 }
-
 ul>li>a {
     text-decoration: none;
     color: #615f5b;
@@ -757,8 +757,8 @@ ul>li {
     }
 }
 
-/* main five 
-.get-Application {
+/* main five  */
+.get-Application { 
     color: #217bf4;
 }
 
@@ -770,7 +770,7 @@ ul>li {
 
 .container-main6 {
     max-width: 1500px;
-    height: 560px;
+    /* height: 560px; */
     background-color: #e4effc;
 }
 
@@ -782,7 +782,7 @@ ul>li {
 
 }
 
-/* Left Section 
+/* Left Section   */
 .left-section {
     max-width: 451px;
     height: 356px;
@@ -851,16 +851,30 @@ h1 {
     color: white;
 }
 .mobile-image{
-    max-width: 655px;
+    /* max-width: 655px; */
     height: 560px;
+    margin-bottom: -5px;
 }
-@media screen and(max-width:576px) {
+@media screen and (max-width:576px) {
     .container-main66 {
-        grid-template-columns: repeat(2, 1fr);
-        
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
+        gap: 20px;
     }
-}*/
+    .container-main6{
+        /* margin-top: 200px; */
+        position: relative;
+        top: 750px;
 
+
+    }
+    .mobile-image{
+        /* max-width: 400px; */
+        width: 100%;
+        height:100%;
+
+    }
+} 
 .six-main {
     max-width: 1440px;
     height: 671px;
@@ -959,7 +973,6 @@ h1 {
         height: 971px;
         margin: 730px 25px 20px -30px;
     }
-
     .image1 {
         width: 240px;
     }
@@ -1057,7 +1070,6 @@ h1 {
     height: 40px;
     border-radius: 13px;
 }
-
 .button3 {
     width: 115px;
     height: 44px;
